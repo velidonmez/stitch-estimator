@@ -95,3 +95,4 @@ A FastAPI-based service that estimates the number of embroidery stitches require
 - `app/models.py`: Pydantic models for request and response validation.
 - `app/utils.py`: Utility functions for image downloading and processing.
 - `requirements.txt`: Project dependencies.
+# stitch-estimator
