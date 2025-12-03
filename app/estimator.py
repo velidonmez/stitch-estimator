@@ -206,7 +206,7 @@ class StitchEstimator:
             'color_change_stitches': 0,
             'underlay_stitches': 0,
             'color_count': len(color_masks),
-            'breakdown': []
+            # 'breakdown': []
         }
         
         # 2. Analyze each color
@@ -266,14 +266,15 @@ class StitchEstimator:
                 details['underlay_stitches'] += underlay
                 color_stitches += (stitches + underlay)
                 
-                details['breakdown'].append({
-                    'color_idx': color_idx,
-                    'type': item['type'],
-                    'area_sq_in': float(f"{item['area']:.4f}"),
-                    'avg_width_in': float(f"{item['avg_width']:.4f}"),
-                    'stitches': float(stitches),
-                    'underlay': float(underlay)
-                })
+                
+                # details['breakdown'].append({
+                #     'color_idx': color_idx,
+                #     'type': item['type'],
+                #     'area_sq_in': float(f"{item['area']:.4f}"),
+                #     'avg_width_in': float(f"{item['avg_width']:.4f}"),
+                #     'stitches': float(stitches),
+                #     'underlay': float(underlay)
+                # })
             
             # Add color change penalty
             if color_stitches > 10:

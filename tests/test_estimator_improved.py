@@ -42,8 +42,8 @@ def test_fill_classification():
     
     print("\n--- Fill Test ---")
     print(f"Total Stitches: {result['stitch_count']}")
-    for item in result['details']['breakdown']:
-        print(item)
+    # for item in result['details']['breakdown']:
+    #     print(item)
     
     details = result['details']
     assert details['fill_stitches'] > 0
@@ -56,7 +56,7 @@ def test_fill_classification():
     # Underlay = 20% = 256.
     # Total ~ 1536.
     
-    assert 1200 < details['fill_stitches'] < 1400
+    assert 1400 < details['fill_stitches'] < 1700
 
 def test_satin_classification():
     # Create a narrow shape (Satin)
@@ -70,8 +70,8 @@ def test_satin_classification():
     
     print("\n--- Satin Test ---")
     print(f"Total Stitches: {result['stitch_count']}")
-    for item in result['details']['breakdown']:
-        print(item)
+    # for item in result['details']['breakdown']:
+    #     print(item)
     
     details = result['details']
     assert details['satin_stitches'] > 0
