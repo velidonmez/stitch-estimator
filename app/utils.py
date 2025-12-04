@@ -18,18 +18,32 @@ def remove_background(img: np.ndarray) -> np.ndarray:
     if img.shape[2] == 4:
         return img
 
-    # If no alpha, assume white background is transparent
+    # If no alpha, assume background is uniform and connected to corners
     # Convert to BGRA
     img = cv2.cvtColor(img, cv2.COLOR_BGR2BGRA)
     
-    # Define white range
-    lower_white = np.array([240, 240, 240, 255])
-    upper_white = np.array([255, 255, 255, 255])
+    # Flood fill from all 4 corners to catch background
+    h, w = img.shape[:2]
+    mask = np.zeros((h + 2, w + 2), np.uint8)
     
-    # Create mask
-    mask = cv2.inRange(img, lower_white, upper_white)
+    # Tolerance for flood fill (loDiff, upDiff)
+    # 20 is a reasonable tolerance for compression artifacts
+    flags = 4 | (255 << 8) | cv2.FLOODFILL_MASK_ONLY | cv2.FLOODFILL_FIXED_RANGE
     
-    # Set alpha to 0 where mask is white
-    img[mask > 0] = [255, 255, 255, 0]
+    # Corners: Top-Left, Top-Right, Bottom-Left, Bottom-Right
+    seeds = [(0, 0), (w-1, 0), (0, h-1), (w-1, h-1)]
+    
+    for seed in seeds:
+        # Check if seed is already filled (mask is set)
+        # Mask is (h+2, w+2), seed is (x,y). Mask index is (y+1, x+1)
+        if mask[seed[1]+1, seed[0]+1] == 0:
+            cv2.floodFill(img, mask, seed, (0, 0, 0, 0), (20, 20, 20), (20, 20, 20), flags)
+            
+    # The mask has 255 where filled.
+    # We need to set alpha to 0 where mask is 255.
+    # Mask is 2 pixels larger. Crop it.
+    mask_cropped = mask[1:-1, 1:-1]
+    
+    img[mask_cropped == 255] = [255, 255, 255, 0]
     
     return img

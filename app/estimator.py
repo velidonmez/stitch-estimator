@@ -4,16 +4,15 @@ from .utils import decode_image, remove_background
 
 class StitchEstimator:
     # --- DENSITY CONSTANTS ---
-    # Tatami Fill: ~2400 stitches/sq inch (increased from 2000 for better coverage/pull comp)
-    FILL_DENSITY = 2400.0
+    # Tatami Fill: ~2200 stitches/sq inch (lowered from 2400 to reduce overestimation)
+    FILL_DENSITY = 2200.0
     
     # Satin Spacing: 0.35mm (~0.0138 inches)
-    # Decreased from 0.4mm to increase density
     SATIN_SPACING_INCH = 0.0138
     
-    # Running Stitch: ~40 stitches per inch (approx 0.6mm stitch length)
-    # Increased to account for travel runs and details
-    RUNNING_DENSITY_PER_INCH = 40.0
+    # Running Stitch: ~35 stitches per inch (approx 0.7mm stitch length)
+    # Reverted to 35 to reduce overestimation
+    RUNNING_DENSITY_PER_INCH = 35.0
     
     # --- GLOBAL FACTORS ---
     # Stitches added per color change (trim, tie-off, tie-in)
@@ -21,11 +20,11 @@ class StitchEstimator:
     
     # Underlay factors
     # Satin: Center run (1x length) or Double (2x length) if wide
-    # Fill: Lattice (approx 35% of top density, increased from 20%)
+    # Fill: Lattice (approx 35% of top density)
     UNDERLAY_FILL_RATIO = 0.35
     
     # Thresholds
-    SATIN_MIN_WIDTH_INCH = 0.015  # ~0.38mm (lowered to catch thin satin columns)
+    SATIN_MIN_WIDTH_INCH = 0.02  # ~0.5mm
     SATIN_MAX_WIDTH_INCH = 0.35  # ~9mm
     
     def __init__(self, image_bytes: bytes, target_width_inches: float):
