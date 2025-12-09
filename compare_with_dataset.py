@@ -43,6 +43,8 @@ async def run_benchmark():
                 print(f"[{i+1}/{len(data)}] Expected: {expected}, Estimated: {estimated_count}, Error: {error} ({percent_error:.2f}%)")
                 
                 results.append({
+                    'url': url,
+                    'width': width,
                     'expected': expected,
                     'estimated': estimated_count,
                     'error': error,
@@ -58,6 +60,22 @@ async def run_benchmark():
     # Calculate Mean Absolute Percentage Error (MAPE)
     mape = np.mean([abs(r['percent_error']) for r in results])
     print(f"Mean Absolute Percentage Error (MAPE): {mape:.2f}%")
+    
+    # Generate Markdown Table
+    with open('benchmark_results.md', 'w') as f:
+        f.write(f"# Benchmark Results\n\n")
+        f.write(f"**Date:** {asyncio.get_event_loop().time()}\n")
+        f.write(f"**Average Absolute Error:** {avg_abs_error:.2f}\n")
+        f.write(f"**MAPE:** {mape:.2f}%\n\n")
+        
+        f.write("| Image | Width (in) | Expected | Estimated | Diff | Error % |\n")
+        f.write("|---|---|---|---|---|---|\n")
+        
+        for r in results:
+            url_short = r['url'].split('/')[-1][:20] + "..."
+            f.write(f"| [{url_short}]({r['url']}) | {r['width']} | {r['expected']} | {r['estimated']} | {r['error']} | {r['percent_error']:.2f}% |\n")
+            
+    print("Detailed results saved to benchmark_results.md")
 
 if __name__ == "__main__":
     asyncio.run(run_benchmark())

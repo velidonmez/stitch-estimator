@@ -20,32 +20,44 @@ class StitchEstimator:
             self.SATIN_MAX_WIDTH_INCH = parameters.satin_max_width_inch
         else:
             # Default values
-            self.FILL_DENSITY = 1239.0
-            self.SATIN_SPACING_INCH = 0.0102
-            self.RUNNING_DENSITY_PER_INCH = 12.4
-            self.STITCHES_PER_COLOR = 45
+            self.FILL_DENSITY = 1002.9
+            self.SATIN_SPACING_INCH = 0.0108
+            self.RUNNING_DENSITY_PER_INCH = 18.1
+            self.STITCHES_PER_COLOR = 39
             self.UNDERLAY_FILL_RATIO = 0.165
-            self.SATIN_MIN_WIDTH_INCH = 0.029
-            self.SATIN_MAX_WIDTH_INCH = 0.394
+            self.SATIN_MIN_WIDTH_INCH = 0.0236
+            self.SATIN_MAX_WIDTH_INCH = 0.471
         
     def process_image(self):
         # 1. Remove background
         img = remove_background(self.original_image)
         
+        # Calculate scale based on ORIGINAL width to preserve physical size
+        original_height, original_width = img.shape[:2]
+        
+        # Avoid division by zero
+        if original_width == 0:
+            original_width = 1
+            
+        scale_factor = (self.target_width_inches * self.pixels_per_inch) / original_width
+        
         # 1.5 Trim empty spaces
         img = trim_image(img)
         
-        # 2. Resize
-        height, width = img.shape[:2]
-        aspect_ratio = height / width
-        target_height_inches = self.target_width_inches * aspect_ratio
+        # 2. Resize using the calculated scale factor
+        current_height, current_width = img.shape[:2]
         
-        new_width = int(self.target_width_inches * self.pixels_per_inch)
-        new_height = int(target_height_inches * self.pixels_per_inch)
+        new_width = int(current_width * scale_factor)
+        new_height = int(current_height * scale_factor)
         
+        if new_width <= 0: new_width = 1
+        if new_height <= 0: new_height = 1
+            
         self.processed_image = cv2.resize(img, (new_width, new_height), interpolation=cv2.INTER_AREA)
-        self.physical_width = self.target_width_inches
-        self.physical_height = target_height_inches
+        
+        # Update physical dimensions to reflect the trimmed size
+        self.physical_width = new_width / self.pixels_per_inch
+        self.physical_height = new_height / self.pixels_per_inch
 
     def quantize_colors(self, k=8) -> dict:
         """
@@ -70,6 +82,9 @@ class StitchEstimator:
         criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
         k = min(k, len(valid_rgb))
         
+        if k == 0:
+            return {}
+            
         _, labels, centers = cv2.kmeans(valid_rgb, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
         
         # Create masks for each label
