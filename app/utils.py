@@ -19,8 +19,6 @@ def remove_background(img: np.ndarray) -> np.ndarray:
         return img
 
     # If no alpha, assume background is uniform and connected to corners
-    # Convert to BGRA
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2BGRA)
     
     # Flood fill from all 4 corners to catch background
     h, w = img.shape[:2]
@@ -37,8 +35,11 @@ def remove_background(img: np.ndarray) -> np.ndarray:
         # Check if seed is already filled (mask is set)
         # Mask is (h+2, w+2), seed is (x,y). Mask index is (y+1, x+1)
         if mask[seed[1]+1, seed[0]+1] == 0:
-            cv2.floodFill(img, mask, seed, (0, 0, 0, 0), (20, 20, 20), (20, 20, 20), flags)
+            cv2.floodFill(img, mask, seed, (0, 0, 0), (20, 20, 20), (20, 20, 20), flags)
             
+    # Convert to BGRA
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2BGRA)
+    
     # The mask has 255 where filled.
     # We need to set alpha to 0 where mask is 255.
     # Mask is 2 pixels larger. Crop it.

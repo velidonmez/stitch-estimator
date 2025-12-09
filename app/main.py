@@ -922,7 +922,6 @@ async def estimate_stitches(request: EstimationRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/logs")
 async def get_logs(limit: int = None):
     """Get estimation logs. Optional limit parameter for most recent N entries."""
     logs = logger.get_logs(limit=limit)
