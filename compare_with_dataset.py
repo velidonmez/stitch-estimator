@@ -39,8 +39,11 @@ async def run_benchmark():
                 
                 total_error += error
                 total_abs_error += abs_error
+
+                # Get physical dimensions from details
+                phys_dims = result['details'].get('physical_dimensions', 'N/A')
                 
-                print(f"[{i+1}/{len(data)}] Expected: {expected}, Estimated: {estimated_count}, Error: {error} ({percent_error:.2f}%)")
+                print(f"[{i+1}/{len(data)}] Expected: {expected}, Estimated: {estimated_count}, Error: {error} ({percent_error:.2f}%) Dims: {phys_dims}")
                 
                 results.append({
                     'url': url,
@@ -48,7 +51,8 @@ async def run_benchmark():
                     'expected': expected,
                     'estimated': estimated_count,
                     'error': error,
-                    'percent_error': percent_error
+                    'percent_error': percent_error,
+                    'dims': phys_dims
                 })
                 
             except Exception as e:
@@ -68,12 +72,12 @@ async def run_benchmark():
         f.write(f"**Average Absolute Error:** {avg_abs_error:.2f}\n")
         f.write(f"**MAPE:** {mape:.2f}%\n\n")
         
-        f.write("| Image | Width (in) | Expected | Estimated | Diff | Error % |\n")
-        f.write("|---|---|---|---|---|---|\n")
+        f.write("| Image | Width (in) | Dims | Expected | Estimated | Diff | Error % |\n")
+        f.write("|---|---|---|---|---|---|---|\n")
         
         for r in results:
             url_short = r['url'].split('/')[-1][:20] + "..."
-            f.write(f"| [{url_short}]({r['url']}) | {r['width']} | {r['expected']} | {r['estimated']} | {r['error']} | {r['percent_error']:.2f}% |\n")
+            f.write(f"| [{url_short}]({r['url']}) | {r['width']} | {r['dims']} | {r['expected']} | {r['estimated']} | {r['error']} | {r['percent_error']:.2f}% |\n")
             
     print("Detailed results saved to benchmark_results.md")
 

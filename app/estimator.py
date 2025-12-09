@@ -32,7 +32,10 @@ class StitchEstimator:
         # 1. Remove background
         img = remove_background(self.original_image)
         
-        # Calculate scale based on ORIGINAL width to preserve physical size
+        # 1.5 Trim empty spaces
+        img = trim_image(img)
+
+        # Calculate scale based on TRIMMED width to preserve physical size of the actual design
         original_height, original_width = img.shape[:2]
         
         # Avoid division by zero
@@ -40,9 +43,6 @@ class StitchEstimator:
             original_width = 1
             
         scale_factor = (self.target_width_inches * self.pixels_per_inch) / original_width
-        
-        # 1.5 Trim empty spaces
-        img = trim_image(img)
         
         # 2. Resize using the calculated scale factor
         current_height, current_width = img.shape[:2]
