@@ -47,3 +47,29 @@ def remove_background(img: np.ndarray) -> np.ndarray:
     img[mask_cropped == 255] = [255, 255, 255, 0]
     
     return img
+
+def trim_image(img: np.ndarray) -> np.ndarray:
+    """
+    Trims empty (transparent) spaces around the image.
+    """
+    # Check if image has alpha channel
+    if img.shape[2] != 4:
+        return img
+        
+    # Get alpha channel
+    alpha = img[:, :, 3]
+    
+    # Find non-zero alpha values
+    coords = cv2.findNonZero(alpha)
+    
+    if coords is None:
+        # Image is fully transparent
+        return img
+        
+    # Get bounding box
+    x, y, w, h = cv2.boundingRect(coords)
+    
+    # Crop image
+    trimmed_img = img[y:y+h, x:x+w]
+    
+    return trimmed_img

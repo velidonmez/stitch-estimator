@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from .utils import decode_image, remove_background
+from .utils import decode_image, remove_background, trim_image
 
 class StitchEstimator:
     def __init__(self, image_bytes: bytes, target_width_inches: float, parameters=None):
@@ -31,6 +31,9 @@ class StitchEstimator:
     def process_image(self):
         # 1. Remove background
         img = remove_background(self.original_image)
+        
+        # 1.5 Trim empty spaces
+        img = trim_image(img)
         
         # 2. Resize
         height, width = img.shape[:2]
