@@ -20,13 +20,15 @@ class StitchEstimator:
             self.SATIN_MAX_WIDTH_INCH = parameters.satin_max_width_inch
         else:
             # Default values
-            self.FILL_DENSITY = 1002.9
-            self.SATIN_SPACING_INCH = 0.0108
-            self.RUNNING_DENSITY_PER_INCH = 15.0  # Slightly reduced from 18.1
+            # Default values
+            # Default values
+            self.FILL_DENSITY = 1250.0  # Increased for positive error
+            self.SATIN_SPACING_INCH = 0.009  # Decreased for more stitches
+            self.RUNNING_DENSITY_PER_INCH = 20.0  # Increased
             self.STITCHES_PER_COLOR = 39
-            self.UNDERLAY_FILL_RATIO = 0.165
-            self.SATIN_MIN_WIDTH_INCH = 0.025     # Original 0.0236
-            self.SATIN_MAX_WIDTH_INCH = 0.471     # Original value
+            self.UNDERLAY_FILL_RATIO = 0.20  # Increased
+            self.SATIN_MIN_WIDTH_INCH = 0.025
+            self.SATIN_MAX_WIDTH_INCH = 0.50  # Increased
         
     def process_image(self):
         # 1. Remove background
