@@ -1,0 +1,1136 @@
+[
+  {
+    "url": "https://storage.printmood.com/07b760bd-3d1a-4d1d-a43a-1895179bfe3a.PNG",
+    "width": 4.0,
+    "expected": 15677,
+    "estimated": 13661,
+    "error": -2016,
+    "percent_error": -12.859603240415895,
+    "dims": "4.00x3.40 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2066,
+      "running_stitches": 11089,
+      "color_change_stitches": 360,
+      "underlay_stitches": 144.8228759765625,
+      "color_count": 12,
+      "physical_dimensions": "4.00x3.40 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/08ab92f3-9984-4337-8048-5cb217a8db1d.png",
+    "width": 8.0,
+    "expected": 11213,
+    "estimated": 11102,
+    "error": -111,
+    "percent_error": -0.9899224114866674,
+    "dims": "8.00x4.70 inches",
+    "details": {
+      "fill_stitches": 1547,
+      "satin_stitches": 5177,
+      "running_stitches": 3065,
+      "color_change_stitches": 360,
+      "underlay_stitches": 952.0565185546875,
+      "color_count": 12,
+      "physical_dimensions": "8.00x4.70 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/291084c5-0a59-41b3-ba4a-e9fdcb6b1939.png",
+    "width": 4.0,
+    "expected": 2178,
+    "estimated": 2616,
+    "error": 438,
+    "percent_error": 20.110192837465565,
+    "dims": "4.00x0.86 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 1953,
+      "running_stitches": 221,
+      "color_change_stitches": 180,
+      "underlay_stitches": 260.9436340332031,
+      "color_count": 12,
+      "physical_dimensions": "4.00x0.86 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/2a818506-d775-4de0-bd7a-0f865aaf6dc3.png",
+    "width": 2.5,
+    "expected": 10027,
+    "estimated": 11355,
+    "error": 1328,
+    "percent_error": 13.244240550513615,
+    "dims": "2.50x2.50 inches",
+    "details": {
+      "fill_stitches": 4593,
+      "satin_stitches": 4973,
+      "running_stitches": 229,
+      "color_change_stitches": 270,
+      "underlay_stitches": 1289.4627685546875,
+      "color_count": 12,
+      "physical_dimensions": "2.50x2.50 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/38f397ee-69e5-48e3-9cb3-ee185749bd56.png",
+    "width": 8.0,
+    "expected": 9561,
+    "estimated": 10166,
+    "error": 605,
+    "percent_error": 6.327789980127601,
+    "dims": "8.00x1.65 inches",
+    "details": {
+      "fill_stitches": 642,
+      "satin_stitches": 6639,
+      "running_stitches": 1685,
+      "color_change_stitches": 360,
+      "underlay_stitches": 838.4191284179688,
+      "color_count": 12,
+      "physical_dimensions": "8.00x1.65 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/408fa110-64af-4b75-a313-31223083a90b.png",
+    "width": 1.5,
+    "expected": 2711,
+    "estimated": 2425,
+    "error": -286,
+    "percent_error": -10.549612689044633,
+    "dims": "1.50x1.00 inches",
+    "details": {
+      "fill_stitches": 1358,
+      "satin_stitches": 509,
+      "running_stitches": 54,
+      "color_change_stitches": 180,
+      "underlay_stitches": 322.7002258300781,
+      "color_count": 12,
+      "physical_dimensions": "1.50x1.00 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/53946c52-d7d5-4e1c-a110-fa4c773451ea.png",
+    "width": 5.0,
+    "expected": 11768,
+    "estimated": 11731,
+    "error": -37,
+    "percent_error": -0.314411964649898,
+    "dims": "5.00x2.94 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 8913,
+      "running_stitches": 1387,
+      "color_change_stitches": 270,
+      "underlay_stitches": 1160.6707763671875,
+      "color_count": 12,
+      "physical_dimensions": "5.00x2.94 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/55d2ab0c-408f-4268-a8f2-db033bafbfbd.png",
+    "width": 2.9,
+    "expected": 3102,
+    "estimated": 8275,
+    "error": 5173,
+    "percent_error": 166.76337846550612,
+    "dims": "2.90x3.97 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 7705,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 539.9331665039062,
+      "color_count": 12,
+      "physical_dimensions": "2.90x3.97 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/5cca0b08-6609-4327-a11d-e92b1246f6ba.png",
+    "width": 3.7,
+    "expected": 17416,
+    "estimated": 19661,
+    "error": 2245,
+    "percent_error": 12.890445567294442,
+    "dims": "3.70x3.99 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 14920,
+      "running_stitches": 3130,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1249.718505859375,
+      "color_count": 12,
+      "physical_dimensions": "3.70x3.99 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/5f19542f-085b-4268-a88d-7c4585842531.png",
+    "width": 2.0,
+    "expected": 2769,
+    "estimated": 2688,
+    "error": -81,
+    "percent_error": -2.925243770314193,
+    "dims": "2.00x1.95 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2036,
+      "running_stitches": 208,
+      "color_change_stitches": 300,
+      "underlay_stitches": 142.72732543945312,
+      "color_count": 12,
+      "physical_dimensions": "2.00x1.95 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/5fafbe05-9e8f-4245-8df6-fc6ebe97dbff.png",
+    "width": 3.55,
+    "expected": 27990,
+    "estimated": 19310,
+    "error": -8680,
+    "percent_error": -31.01107538406574,
+    "dims": "3.55x3.83 inches",
+    "details": {
+      "fill_stitches": 4925,
+      "satin_stitches": 10262,
+      "running_stitches": 1882,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1879.337646484375,
+      "color_count": 12,
+      "physical_dimensions": "3.55x3.83 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/5fd499e4-c447-4e5a-8c50-8039461aca58.png",
+    "width": 2.6,
+    "expected": 2613,
+    "estimated": 2947,
+    "error": 334,
+    "percent_error": 12.782242632988902,
+    "dims": "2.60x2.61 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2558,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 358.6138916015625,
+      "color_count": 12,
+      "physical_dimensions": "2.60x2.61 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/61c1096c-404a-4d8f-a412-a69b6afdd499.png",
+    "width": 5.0,
+    "expected": 19575,
+    "estimated": 15026,
+    "error": -4549,
+    "percent_error": -23.23882503192848,
+    "dims": "5.00x2.20 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 9736,
+      "running_stitches": 3806,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1122.828857421875,
+      "color_count": 12,
+      "physical_dimensions": "5.00x2.20 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/6c633050-8cef-4b83-aaae-4a9cf353e55a.png",
+    "width": 4.0,
+    "expected": 2500,
+    "estimated": 2646,
+    "error": 146,
+    "percent_error": 5.84,
+    "dims": "4.00x0.66 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2444,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 171.30105590820312,
+      "color_count": 12,
+      "physical_dimensions": "4.00x0.66 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/701cb1f3-d093-47a1-b8f5-6a8beea6f01c.png",
+    "width": 7.8,
+    "expected": 81750,
+    "estimated": 74957,
+    "error": -6793,
+    "percent_error": -8.309480122324159,
+    "dims": "7.80x7.07 inches",
+    "details": {
+      "fill_stitches": 25353,
+      "satin_stitches": 32209,
+      "running_stitches": 8589,
+      "color_change_stitches": 360,
+      "underlay_stitches": 8444.759765625,
+      "color_count": 12,
+      "physical_dimensions": "7.80x7.07 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/77ab6c0f-a530-4c8e-a2ae-bbf638b67ead.png",
+    "width": 3.1,
+    "expected": 2942,
+    "estimated": 2689,
+    "error": -253,
+    "percent_error": -8.599592114208022,
+    "dims": "3.10x1.48 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2332,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 326.94549560546875,
+      "color_count": 12,
+      "physical_dimensions": "3.10x1.48 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/7fad059d-f958-46a6-acd4-675fc775c3aa.png",
+    "width": 4.0,
+    "expected": 3399,
+    "estimated": 2922,
+    "error": -477,
+    "percent_error": -14.033539276257724,
+    "dims": "4.00x0.94 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2641,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 250.84434509277344,
+      "color_count": 12,
+      "physical_dimensions": "4.00x0.94 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/87c3e193-8fd4-4f6d-9dae-1d36595b78b0.png",
+    "width": 9.0,
+    "expected": 49301,
+    "estimated": 26750,
+    "error": -22551,
+    "percent_error": -45.741465690351106,
+    "dims": "9.00x4.11 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 24924,
+      "running_stitches": 2,
+      "color_change_stitches": 30,
+      "underlay_stitches": 1792.7646484375,
+      "color_count": 12,
+      "physical_dimensions": "9.00x4.11 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/8da0fc14-001b-44ec-8f4f-a385158efa96.png",
+    "width": 3.0,
+    "expected": 15445,
+    "estimated": 13514,
+    "error": -1931,
+    "percent_error": -12.502427970216898,
+    "dims": "3.00x3.99 inches",
+    "details": {
+      "fill_stitches": 2725,
+      "satin_stitches": 8044,
+      "running_stitches": 744,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1640.1773681640625,
+      "color_count": 12,
+      "physical_dimensions": "3.00x3.99 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/938df943-0aac-4765-bf6a-6cf6244b041b.png",
+    "width": 4.0,
+    "expected": 5503,
+    "estimated": 6214,
+    "error": 711,
+    "percent_error": 12.920225331637289,
+    "dims": "4.00x1.75 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 4181,
+      "running_stitches": 1349,
+      "color_change_stitches": 360,
+      "underlay_stitches": 324.2670593261719,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.75 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/9a7464cd-b8fe-428d-b8ff-cdc5846ce7bd.png",
+    "width": 2.8,
+    "expected": 7582,
+    "estimated": 7076,
+    "error": -506,
+    "percent_error": -6.6737008704827225,
+    "dims": "2.80x2.60 inches",
+    "details": {
+      "fill_stitches": 2950,
+      "satin_stitches": 2632,
+      "running_stitches": 263,
+      "color_change_stitches": 300,
+      "underlay_stitches": 929.4825439453125,
+      "color_count": 12,
+      "physical_dimensions": "2.80x2.60 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/a3bacfab-99a0-4ee0-8b9f-9fc9a7fadb93.png",
+    "width": 1.98,
+    "expected": 2041,
+    "estimated": 2376,
+    "error": 335,
+    "percent_error": 16.413522782949535,
+    "dims": "1.98x2.45 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2058,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 288.4490661621094,
+      "color_count": 12,
+      "physical_dimensions": "1.98x2.45 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/a51f8340-5435-4a46-a195-52a20369c1f9.png",
+    "width": 4.0,
+    "expected": 3965,
+    "estimated": 4143,
+    "error": 178,
+    "percent_error": 4.4892812105926865,
+    "dims": "4.00x3.95 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 0,
+      "running_stitches": 3813,
+      "color_change_stitches": 330,
+      "underlay_stitches": 0.0,
+      "color_count": 12,
+      "physical_dimensions": "4.00x3.95 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/aa5ba3dd-c3c6-4b9e-9ff8-da49cbae4570.PNG",
+    "width": 3.0,
+    "expected": 3436,
+    "estimated": 5729,
+    "error": 2293,
+    "percent_error": 66.73457508731082,
+    "dims": "3.00x2.76 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 0,
+      "running_stitches": 5369,
+      "color_change_stitches": 360,
+      "underlay_stitches": 0.0,
+      "color_count": 12,
+      "physical_dimensions": "3.00x2.76 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/af9fdbca-4b7b-4776-b758-fe83c7aa232a.png",
+    "width": 7.8,
+    "expected": 14545,
+    "estimated": 17687,
+    "error": 3142,
+    "percent_error": 21.60192506015813,
+    "dims": "7.80x8.83 inches",
+    "details": {
+      "fill_stitches": 3896,
+      "satin_stitches": 11421,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 2340.788818359375,
+      "color_count": 12,
+      "physical_dimensions": "7.80x8.83 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/b9406970-e650-48ed-b58f-13a322af3a3d.png",
+    "width": 4.0,
+    "expected": 4318,
+    "estimated": 4672,
+    "error": 354,
+    "percent_error": 8.198239925891617,
+    "dims": "4.00x3.08 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 4160,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 481.5215148925781,
+      "color_count": 12,
+      "physical_dimensions": "4.00x3.08 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/bbf209a1-02a5-4375-a2c1-406c048ed424.png",
+    "width": 5.5,
+    "expected": 3799,
+    "estimated": 4087,
+    "error": 288,
+    "percent_error": 7.5809423532508555,
+    "dims": "5.50x1.12 inches",
+    "details": {
+      "fill_stitches": 640,
+      "satin_stitches": 2889,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 526.7066650390625,
+      "color_count": 12,
+      "physical_dimensions": "5.50x1.12 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/c2c59795-99fa-4a8a-bfdc-4a59c87d4bf7.png",
+    "width": 7.8,
+    "expected": 8374,
+    "estimated": 8955,
+    "error": 581,
+    "percent_error": 6.938141867685693,
+    "dims": "7.80x3.13 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 6644,
+      "running_stitches": 1021,
+      "color_change_stitches": 360,
+      "underlay_stitches": 929.675537109375,
+      "color_count": 12,
+      "physical_dimensions": "7.80x3.13 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/cfe22085-c3e2-46ae-8295-0a72bae8bb92.png",
+    "width": 4.0,
+    "expected": 3623,
+    "estimated": 4362,
+    "error": 739,
+    "percent_error": 20.397460667954732,
+    "dims": "4.00x2.22 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 3436,
+      "running_stitches": 268,
+      "color_change_stitches": 240,
+      "underlay_stitches": 417.9175720214844,
+      "color_count": 12,
+      "physical_dimensions": "4.00x2.22 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/d28989e9-25f6-46f3-b8b9-1c62a62af4b7.png",
+    "width": 7.8,
+    "expected": 9933,
+    "estimated": 13363,
+    "error": 3430,
+    "percent_error": 34.53136011275546,
+    "dims": "7.80x4.59 inches",
+    "details": {
+      "fill_stitches": 7862,
+      "satin_stitches": 3488,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 1982.719482421875,
+      "color_count": 12,
+      "physical_dimensions": "7.80x4.59 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/e60455ed-2160-4ce3-a41a-b4786ee1927a.png",
+    "width": 7.8,
+    "expected": 11250,
+    "estimated": 12109,
+    "error": 859,
+    "percent_error": 7.635555555555555,
+    "dims": "7.80x7.68 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 10595,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 1483.510009765625,
+      "color_count": 12,
+      "physical_dimensions": "7.80x7.68 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/ed3dfb06-7a42-41a6-95fd-1f927a4322de.png",
+    "width": 3.16,
+    "expected": 2580,
+    "estimated": 3422,
+    "error": 842,
+    "percent_error": 32.63565891472868,
+    "dims": "3.16x2.45 inches",
+    "details": {
+      "fill_stitches": 1819,
+      "satin_stitches": 1075,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 496.52020263671875,
+      "color_count": 12,
+      "physical_dimensions": "3.16x2.45 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/f9a364c0-0bca-4002-9b65-f8362385ab68.png",
+    "width": 1.5,
+    "expected": 3936,
+    "estimated": 4226,
+    "error": 290,
+    "percent_error": 7.367886178861789,
+    "dims": "1.50x0.79 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 3411,
+      "running_stitches": 318,
+      "color_change_stitches": 240,
+      "underlay_stitches": 255.74607849121094,
+      "color_count": 12,
+      "physical_dimensions": "1.50x0.79 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/fe713a22-e5d9-479d-a772-e23b49a3e60d.png",
+    "width": 4.0,
+    "expected": 20729,
+    "estimated": 18566,
+    "error": -2163,
+    "percent_error": -10.434656761059385,
+    "dims": "4.00x3.98 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 12343,
+      "running_stitches": 4656,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1207.1822509765625,
+      "color_count": 12,
+      "physical_dimensions": "4.00x3.98 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/22df41b8-1e17-442b-902c-6e59e13ac7b0.png",
+    "width": 3.6,
+    "expected": 15325,
+    "estimated": 16356,
+    "error": 1031,
+    "percent_error": 6.7275693311582385,
+    "dims": "3.60x3.97 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 10324,
+      "running_stitches": 4942,
+      "color_change_stitches": 360,
+      "underlay_stitches": 729.5833740234375,
+      "color_count": 12,
+      "physical_dimensions": "3.60x3.97 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/6b57acb4-55ea-4a4b-a67a-978dfbb28ff6.png",
+    "width": 3.85,
+    "expected": 18140,
+    "estimated": 19869,
+    "error": 1729,
+    "percent_error": 9.531422271223814,
+    "dims": "3.85x3.99 inches",
+    "details": {
+      "fill_stitches": 3833,
+      "satin_stitches": 10887,
+      "running_stitches": 2759,
+      "color_change_stitches": 360,
+      "underlay_stitches": 2029.4766845703125,
+      "color_count": 12,
+      "physical_dimensions": "3.85x3.99 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/19e51b4b-0a68-4cba-9de9-944950b1a67e.png",
+    "width": 3.85,
+    "expected": 18140,
+    "estimated": 19457,
+    "error": 1317,
+    "percent_error": 7.260198456449834,
+    "dims": "3.85x3.99 inches",
+    "details": {
+      "fill_stitches": 3838,
+      "satin_stitches": 10719,
+      "running_stitches": 2551,
+      "color_change_stitches": 330,
+      "underlay_stitches": 2017.9725341796875,
+      "color_count": 12,
+      "physical_dimensions": "3.85x3.99 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/f535d0db-d59c-4fdd-95db-e291476a7e5e.png",
+    "width": 4.0,
+    "expected": 4378,
+    "estimated": 4851,
+    "error": 473,
+    "percent_error": 10.804020100502512,
+    "dims": "4.00x2.02 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 3555,
+      "running_stitches": 584,
+      "color_change_stitches": 300,
+      "underlay_stitches": 411.6361999511719,
+      "color_count": 12,
+      "physical_dimensions": "4.00x2.02 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/a10b7602-45c5-4bfe-895d-22df5ee590eb.png",
+    "width": 4.0,
+    "expected": 10016,
+    "estimated": 10721,
+    "error": 705,
+    "percent_error": 7.038738019169329,
+    "dims": "4.00x4.00 inches",
+    "details": {
+      "fill_stitches": 8984,
+      "satin_stitches": 0,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 1707.0544616666666,
+      "color_count": 12,
+      "physical_dimensions": "4.00x4.00 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/75634fd0-f028-4a6c-bcee-62f98a3f7f33.png",
+    "width": 4.0,
+    "expected": 6316,
+    "estimated": 6965,
+    "error": 649,
+    "percent_error": 10.275490816972768,
+    "dims": "4.00x3.37 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 6082,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 852.4208984375,
+      "color_count": 12,
+      "physical_dimensions": "4.00x3.37 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/da6b03c7-c80a-4839-9b81-2b4167147ad5.png",
+    "width": 3.7,
+    "expected": 12679,
+    "estimated": 11043,
+    "error": -1636,
+    "percent_error": -12.903225806451612,
+    "dims": "3.70x3.96 inches",
+    "details": {
+      "fill_stitches": 4347,
+      "satin_stitches": 5140,
+      "running_stitches": 79,
+      "color_change_stitches": 120,
+      "underlay_stitches": 1355.1661376953125,
+      "color_count": 12,
+      "physical_dimensions": "3.70x3.96 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/1134b30d-3ee3-464c-b93c-d8ae1c3991b6.png",
+    "width": 4.0,
+    "expected": 10383,
+    "estimated": 7335,
+    "error": -3048,
+    "percent_error": -29.355677549841086,
+    "dims": "4.00x2.00 inches",
+    "details": {
+      "fill_stitches": 6139,
+      "satin_stitches": 0,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 1166.4605927777777,
+      "color_count": 12,
+      "physical_dimensions": "4.00x2.00 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/5cefdc04-508b-4bd8-b388-a659a2b642a2.png",
+    "width": 4.0,
+    "expected": 3357,
+    "estimated": 3212,
+    "error": -145,
+    "percent_error": -4.3193327375633,
+    "dims": "4.00x1.17 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2859,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 323.2875061035156,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.17 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/de922407-821c-4ff2-8091-a0e02533a70a.png",
+    "width": 3.14,
+    "expected": 9015,
+    "estimated": 8811,
+    "error": -204,
+    "percent_error": -2.262895174708819,
+    "dims": "3.14x2.51 inches",
+    "details": {
+      "fill_stitches": 1627,
+      "satin_stitches": 4822,
+      "running_stitches": 1091,
+      "color_change_stitches": 360,
+      "underlay_stitches": 910.8115844726562,
+      "color_count": 12,
+      "physical_dimensions": "3.14x2.51 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/659562c9-0159-43f8-a024-31f4c189641d.png",
+    "width": 7.8,
+    "expected": 8736,
+    "estimated": 10602,
+    "error": 1866,
+    "percent_error": 21.35989010989011,
+    "dims": "7.80x8.14 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 8347,
+      "running_stitches": 785,
+      "color_change_stitches": 300,
+      "underlay_stitches": 1169.7596435546875,
+      "color_count": 12,
+      "physical_dimensions": "7.80x8.14 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/8d59a177-85c2-41bf-9926-85240fefe939.png",
+    "width": 4.0,
+    "expected": 4608,
+    "estimated": 4589,
+    "error": -19,
+    "percent_error": -0.4123263888888889,
+    "dims": "4.00x1.22 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 3613,
+      "running_stitches": 245,
+      "color_change_stitches": 300,
+      "underlay_stitches": 430.4425354003906,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.22 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/3b151061-8e68-44bf-8a8d-053bc092a612.png",
+    "width": 4.0,
+    "expected": 2315,
+    "estimated": 2309,
+    "error": -6,
+    "percent_error": -0.2591792656587473,
+    "dims": "4.00x0.87 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 1999,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 280.2391357421875,
+      "color_count": 12,
+      "physical_dimensions": "4.00x0.87 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/24e80a5d-d42e-4976-b1fe-116eeecffd9f.png",
+    "width": 4.0,
+    "expected": 3111,
+    "estimated": 3402,
+    "error": 291,
+    "percent_error": 9.35390549662488,
+    "dims": "4.00x1.49 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 2412,
+      "running_stitches": 362,
+      "color_change_stitches": 330,
+      "underlay_stitches": 297.6122741699219,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.49 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/4a53d850-96c8-4156-9e94-062535e5b4f8.png",
+    "width": 2.72,
+    "expected": 7990,
+    "estimated": 6248,
+    "error": -1742,
+    "percent_error": -21.802252816020026,
+    "dims": "2.72x2.47 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 4961,
+      "running_stitches": 232,
+      "color_change_stitches": 360,
+      "underlay_stitches": 694.1964111328125,
+      "color_count": 12,
+      "physical_dimensions": "2.72x2.47 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/f79417d4-7fb2-4227-85c8-87aa2b65af51.png",
+    "width": 5.0,
+    "expected": 17545,
+    "estimated": 13431,
+    "error": -4114,
+    "percent_error": -23.448275862068964,
+    "dims": "5.00x2.18 inches",
+    "details": {
+      "fill_stitches": 768,
+      "satin_stitches": 10376,
+      "running_stitches": 607,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1319.423828125,
+      "color_count": 12,
+      "physical_dimensions": "5.00x2.18 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/4a5dc8cd-8bd3-4722-af5d-b00fa180e195.png",
+    "width": 7.8,
+    "expected": 4922,
+    "estimated": 4110,
+    "error": -812,
+    "percent_error": -16.497358797236895,
+    "dims": "7.80x1.44 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 3628,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 452.19573974609375,
+      "color_count": 12,
+      "physical_dimensions": "7.80x1.44 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/cdb3e9fc-f696-4ef9-a131-db4cfab71421.png",
+    "width": 5.0,
+    "expected": 15781,
+    "estimated": 12489,
+    "error": -3292,
+    "percent_error": -20.860528483619543,
+    "dims": "5.00x1.98 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 8622,
+      "running_stitches": 2499,
+      "color_change_stitches": 360,
+      "underlay_stitches": 1007.1746215820312,
+      "color_count": 12,
+      "physical_dimensions": "5.00x1.98 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/96ad1948-be26-415c-b3ae-413dc6408b6c.png",
+    "width": 3.52,
+    "expected": 6996,
+    "estimated": 7945,
+    "error": 949,
+    "percent_error": 13.564894225271583,
+    "dims": "3.52x2.60 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 5222,
+      "running_stitches": 1794,
+      "color_change_stitches": 360,
+      "underlay_stitches": 569.1756591796875,
+      "color_count": 12,
+      "physical_dimensions": "3.52x2.60 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/2e739a2b-4d1a-421e-bd85-d26cbbf139a8.png",
+    "width": 4.0,
+    "expected": 5198,
+    "estimated": 5282,
+    "error": 84,
+    "percent_error": 1.6160061562139283,
+    "dims": "4.00x1.63 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 4711,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 540.1041870117188,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.63 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/7b02fc95-81bb-4c21-b774-1af588293c33.png",
+    "width": 4.0,
+    "expected": 6375,
+    "estimated": 6878,
+    "error": 503,
+    "percent_error": 7.890196078431373,
+    "dims": "4.00x1.88 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 3732,
+      "running_stitches": 2426,
+      "color_change_stitches": 360,
+      "underlay_stitches": 359.433837890625,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.88 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/728bdef7-0e5c-491b-b557-ab6e7504229c.png",
+    "width": 7.8,
+    "expected": 34398,
+    "estimated": 25492,
+    "error": -8906,
+    "percent_error": -25.891040176754466,
+    "dims": "7.80x3.95 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 18054,
+      "running_stitches": 4704,
+      "color_change_stitches": 330,
+      "underlay_stitches": 2403.216552734375,
+      "color_count": 12,
+      "physical_dimensions": "7.80x3.95 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/870c7f5e-63d6-4553-9c7b-c38ff1d53cc6.png",
+    "width": 5.0,
+    "expected": 11538,
+    "estimated": 7760,
+    "error": -3778,
+    "percent_error": -32.743976425723694,
+    "dims": "5.00x1.33 inches",
+    "details": {
+      "fill_stitches": 6496,
+      "satin_stitches": 0,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 1234.342537326389,
+      "color_count": 12,
+      "physical_dimensions": "5.00x1.33 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/e66f1d5e-4031-436b-8c2b-47b7166c5ab3.png",
+    "width": 4.0,
+    "expected": 5374,
+    "estimated": 8322,
+    "error": 2948,
+    "percent_error": 54.85671752884258,
+    "dims": "4.00x1.60 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 6027,
+      "running_stitches": 1404,
+      "color_change_stitches": 300,
+      "underlay_stitches": 590.1336669921875,
+      "color_count": 12,
+      "physical_dimensions": "4.00x1.60 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/be06c7aa-a4b0-4881-baf7-ff8eae99fbc5.png",
+    "width": 5.0,
+    "expected": 6335,
+    "estimated": 7544,
+    "error": 1209,
+    "percent_error": 19.08445146014207,
+    "dims": "5.00x2.25 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 5478,
+      "running_stitches": 1128,
+      "color_change_stitches": 240,
+      "underlay_stitches": 697.8649291992188,
+      "color_count": 12,
+      "physical_dimensions": "5.00x2.25 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/2c0c8242-4cc0-4576-9ba1-ef585ff3216a.png",
+    "width": 7.8,
+    "expected": 11971,
+    "estimated": 15988,
+    "error": 4017,
+    "percent_error": 33.55609389357615,
+    "dims": "7.80x5.39 inches",
+    "details": {
+      "fill_stitches": 8051,
+      "satin_stitches": 5593,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 2313.63671875,
+      "color_count": 12,
+      "physical_dimensions": "7.80x5.39 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/2c0c8242-4cc0-4576-9ba1-ef585ff3216a.png",
+    "width": 4.0,
+    "expected": 4945,
+    "estimated": 5350,
+    "error": 405,
+    "percent_error": 8.190091001011123,
+    "dims": "4.00x2.76 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 4666,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 653.953369140625,
+      "color_count": 12,
+      "physical_dimensions": "4.00x2.76 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/3db1d460-7329-4fc3-a873-20b9ec47c3d6.png",
+    "width": 7.8,
+    "expected": 15670,
+    "estimated": 23582,
+    "error": 7912,
+    "percent_error": 50.49138481174218,
+    "dims": "7.80x7.08 inches",
+    "details": {
+      "fill_stitches": 13075,
+      "satin_stitches": 7010,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 3466.6923828125,
+      "color_count": 12,
+      "physical_dimensions": "7.80x7.08 inches"
+    }
+  },
+  {
+    "url": "https://storage.printmood.com/3db1d460-7329-4fc3-a873-20b9ec47c3d6.png",
+    "width": 4.0,
+    "expected": 8198,
+    "estimated": 7163,
+    "error": -1035,
+    "percent_error": -12.625030495242742,
+    "dims": "4.00x3.63 inches",
+    "details": {
+      "fill_stitches": 0,
+      "satin_stitches": 6256,
+      "running_stitches": 0,
+      "color_change_stitches": 30,
+      "underlay_stitches": 876.83056640625,
+      "color_count": 12,
+      "physical_dimensions": "4.00x3.63 inches"
+    }
+  }
+]

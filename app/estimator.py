@@ -9,6 +9,14 @@ class StitchEstimator:
         self.processed_image = None
         self.pixels_per_inch = 300
         
+        # Optimization for large images: limit processing resolution
+        # If requested width > 4 inches, we lower the PPI so that the 
+        # width in pixels corresponds to a 4-inch image at 300 PPI (1200 px).
+        # This keeps processing time constant regardless of physical size.
+        if self.target_width_inches > 4:
+            ratio = self.target_width_inches / 4.0
+            self.pixels_per_inch = 300 / ratio
+        
         # Use parameters from request or defaults
         if parameters:
             self.FILL_DENSITY = parameters.fill_density
@@ -22,13 +30,13 @@ class StitchEstimator:
             # Default values
             # Default values
             # Default values
-            self.FILL_DENSITY = 1800.0
-            self.SATIN_SPACING_INCH = 0.011
-            self.RUNNING_DENSITY_PER_INCH = 18.0
-            self.STITCHES_PER_COLOR = 35
-            self.UNDERLAY_FILL_RATIO = 0.25
-            self.SATIN_MIN_WIDTH_INCH = 0.025
-            self.SATIN_MAX_WIDTH_INCH = 0.40
+            self.FILL_DENSITY = 1382.0
+            self.SATIN_SPACING_INCH = 0.0091
+            self.RUNNING_DENSITY_PER_INCH = 15.4
+            self.STITCHES_PER_COLOR = 30
+            self.UNDERLAY_FILL_RATIO = 0.19
+            self.SATIN_MIN_WIDTH_INCH = 0.027
+            self.SATIN_MAX_WIDTH_INCH = 0.42
         
     def process_image(self):
         # 1. Remove background
