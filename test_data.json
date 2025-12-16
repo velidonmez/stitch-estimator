@@ -313,5 +313,25 @@
     "expected_stitch_count": 6335,
     "width": 5.0,
     "image_url": "https://storage.printmood.com/be06c7aa-a4b0-4881-baf7-ff8eae99fbc5.png"
+  },
+  {
+    "expected_stitch_count": 11971,
+    "width": 7.8,
+    "image_url": "https://storage.printmood.com/2c0c8242-4cc0-4576-9ba1-ef585ff3216a.png"
+  },
+  {
+    "expected_stitch_count": 4945,
+    "width": 4.0,
+    "image_url": "https://storage.printmood.com/2c0c8242-4cc0-4576-9ba1-ef585ff3216a.png"
+  },
+  {
+    "expected_stitch_count": 15670,
+    "width": 7.8,
+    "image_url": "https://storage.printmood.com/3db1d460-7329-4fc3-a873-20b9ec47c3d6.png"
+  },
+  {
+    "expected_stitch_count": 8198,
+    "width": 4.0,
+    "image_url": "https://storage.printmood.com/3db1d460-7329-4fc3-a873-20b9ec47c3d6.png"
   }
 ]
